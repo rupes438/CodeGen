@@ -1,0 +1,558 @@
+#include <stdio.h> int main ( ) { int i = 1 ; while ( i < = 10 ) { printf ( " %d " , i ) ; i + + ; } return ( 0 ) ; }
+#include <stdio.h> #include <conio.h> void main ( ) { unsigned int mask ; clrscr ( ) ; printf ( " Memory Required : %d butes " , sizeof ( mask ) ) ; getch ( ) ; }
+#include <stdio.h> main ( ) { float a = 14.0 ; float b = 5.0 ; printf ( " %f % % %f = %fn " , a , b , a % b ) ; }
+#include <stdio.h> int main ( ) { int far * ptr ; printf ( " Size of Integer Far Pointer : %d " , sizeof ( ptr ) ) ; return ( 0 ) ; }
+#include <stdio.h> void main ( ) { if ( printf ( " Hello " ) ) { } }
+#include <stdio.h> void main ( ) { while ( printf ( " Hello " ) ) { } }
+#include <stdio.h> void main ( ) { switch ( printf ( " Hello " ) ) { } }
+#include <stdio.h> void main ( ) { if ( printf ( " " ) ) { } else if ( printf ( " Hello " ) ) { } else { } }
+#include <stdio.h> void main ( ) { while ( !printf ( " Hello " ) ) { } }
+#include <stdio.h> #define PRINT printf ( " Hello " ) void main ( ) { if ( PRINT ) { } }
+#include <stdio.h> #include <conio.h> void main ( ) { clrscr ( ) ; printf ( " %d " , printf ( " abcdefghijklmnopqrstuvwxyz " ) ) ; getch ( ) ; }
+#include <stdio.h> #define begin main int begin ( ) { printf ( " Hello " ) ; return ( 0 ) ; }
+#include <stdio.h> #define begin m##a##i##n void begin ( ) { printf ( " Hello " ) ; }
+#include <stdio.h> #define begin ( m , a , i , n ) m##a##i##n #define start begin ( m , a , i , n ) void start ( ) { printf ( " Hello " ) ; }
+#include <dos.h> void main ( ) { char * path = " BIN " ; _AH = 0x39 ; _DX = ( unsigned int ) path ; __int__ ( 0x21 ) ; }
+#include <dos.h> void main ( ) { char * message = " Pritesh Taral$ " ; _AH = 9 ; _DX = ( int ) message ; geninterrupt ( 0x21 ) ; }
+#include <stdio.h> void main ( ) { int i = 0 ; Start : i = i + 1 ; printf ( " %d " , i ) ; if ( i < = 10 ) goto Start ; }
+#include <stdio.h> void main ( ) { static int i = 1 ; if ( i < = 10 ) { printf ( " %d " , i + + ) ; main ( ) ; } }
+#include <stdio.h> main ( ) { printf ( " hello , world " ) ; }
+#include <stdio.h> main ( ) { printf ( " hello , world " ) }
+#include <stdio.h> main ( ) { printf ( " hello , world\n  " ) ; }
+#include <stdio.h> main ( ) { printf ( " hello , world " ) ; }
+#include <stdio.h> main ( ) { printf ( " hello , world " ) }
+#include <stdio.h> main ( ) { printf ( " hello , world\n  " ) ; }
+#include <iostream.h> int main ( ) { cout < < " Hello , Welcome to C + + " ; return ( 0 ) ; }
+#include <iostream.h> int main ( ) { cout < < " Hello , Welcome to C + + " ; return ( 0 ) ; }
+#include <stdio.h> void message ( ) ; void main ( ) { message ( ) ; } void message ( ) { printf ( " Hi , How are you ? " ) ; }
+#include <stdio.h> void message ( ) ; void main ( ) { message ( ) ; } void message ( ) { printf ( " Hi , How are you ? " ) ; }
+#include <stdio.h> int main ( ) { int i = 1 ; while ( i < = 10 ) { printf ( " %d " , i ) ; i + + ; } return ( 0 ) ; }
+#include <stdio.h> int main ( ) { int far * ptr ; printf ( " Size of Integer Far Pointer : %d " , sizeof ( ptr ) ) ; return ( 0 ) ; }
+#include <stdio.h> #include <conio.h> void main ( ) { unsigned int mask ; clrscr ( ) ; printf ( " Memory Required : %d butes " , sizeof ( mask ) ) ; getch ( ) ; }
+#include <stdio.h> main ( ) { float a = 14.0 ; float b = 5.0 ; printf ( " %f % % %f = %fn " , a , b , a % b ) ; }
+#include <stdio.h> void main ( ) { if ( printf ( " Hello " ) ) { } }
+#include <stdio.h> void main ( ) { while ( printf ( " Hello " ) ) { } }
+#include <stdio.h> void main ( ) { switch ( printf ( " Hello " ) ) { } }
+#include <stdio.h> void main ( ) { if ( printf ( " " ) ) { } else if ( printf ( " Hello " ) ) { } else { } }
+#include <stdio.h> void main ( ) { while ( !printf ( " Hello " ) ) { } }
+#include <stdio.h> #define PRINT printf ( " Hello " ) void main ( ) { if ( PRINT ) { } }
+#include <stdio.h> #include <conio.h> void main ( ) { clrscr ( ) ; printf ( " %d " , printf ( " abcdefghijklmnopqrstuvwxyz " ) ) ; getch ( ) ; }
+#include <stdio.h> #define begin main int begin ( ) { printf ( " Hello " ) ; return ( 0 ) ; }
+#include <stdio.h> #define begin m##a##i##n void begin ( ) { printf ( " Hello " ) ; }
+#include <stdio.h> #define begin ( m , a , i , n ) m##a##i##n #define start begin ( m , a , i , n ) void start ( ) { printf ( " Hello " ) ; }
+#include <dos.h> void main ( ) { char * path = " BIN " ; _AH = 0x39 ; _DX = ( unsigned int ) path ; __int__ ( 0x21 ) ; }
+#include <dos.h> void main ( ) { char * message = " Pritesh Taral$ " ; _AH = 9 ; _DX = ( int ) message ; geninterrupt ( 0x21 ) ; }
+#include <stdio.h> void main ( ) { int i = 0 ; Start : i = i + 1 ; printf ( " %d " , i ) ; if ( i < = 10 ) goto Start ; }
+#include <stdio.h> void main ( ) { static int i = 1 ; if ( i < = 10 ) { printf ( " %d " , i + + ) ; main ( ) ; } }
+#include <stdio.h> int main ( ) { printf ( " Hello World " ) ; return 0 ; }
+#include void hello ( ) { printf ( " Hello World " ) ; } int main ( ) { hello ( ) ; return 0 ; }
+#include <stdio.h> int main ( ) { int x = 20 ; int y = 22 ; if ( x <y ) { printf ( " Variable x is less than y " ) ; } return 0 ; }
+#include <stdio.h> int main ( ) { int count = 1 ; while ( count < = 4 ) { printf ( " %d " , count ) ; count + + ; } return 0 ; }
+#include <stdio.h> int main ( ) { int var = 1 ; while ( var < = 2 ) { printf ( " %d " , var ) ; } }
+#include <stdio.h> int main ( ) { int var = 6 ; while ( var > = 5 ) { printf ( " %d " , var ) ; var + + ; } return 0 ; }
+#include <stdio.h> int main ( ) { int var = 5 ; while ( var < = 10 ) { printf ( " %d " , var ) ; var-- ; } return 0 ; }
+#include <stdio.h> #include <string.h> int main ( ) { char nickname [ 20 ] ; puts ( " Enter your Nick name : " ) ; gets ( nickname ) ; puts ( nickname ) ; return 0 ; }
+#include <stdio.h> #include <string.h> int main ( ) { char str1 [ 20 ] = " BeginnersBook " ; printf ( " Length of string str1 : %d " , strlen ( str1 ) ) ; return 0 ; }
+#include <stdio.h> int main ( ) { int i = 0 ; while ( i = = 1 ) { printf ( " while vs do-while " ) ; } printf ( " Out of loop " ) ; }
+#include <stdio.h> int main ( ) { int num = 10 ; int * p ; p = # printf ( " Address of variable num is : %p " , p ) ; return 0 ; }
+#include <stdio.h> int main ( ) { printf ( " Catch me if you can. " ) ; } < / stdio.h>
+#include <stdio.h> #include <stdbool.h> int main ( ) { bool a = true ; return 0 ; }
+#include <stdio.h> #include <complex.h> int main ( ) { int complex z = 2 + 1 * I ; }
+#include <stdio.h> int main ( ) { printf ( " C Programming " ) ; return 0 ; }
+#include <stdio.h> int main ( ) { int testInteger = 5 ; printf ( " Number = %d " , testInteger ) ; return 0 ; }
+#include <stdio.h> int main ( ) { int chr = 69 ; printf ( " Character having ASCII value 69 is %c. " , chr ) ; return 0 ; }
+#include <stdio.h> int main ( ) { int var = 5 ; printf ( " Value : %d\n  " , var ) ; printf ( " Address : %u " , & var ) ; return 0 ; }
+#include <stdio.h> int main ( ) { printf ( " Hello , World! " ) ; return 0 ; }
+#include <stdio.h> #include <stdbool.h> int main ( ) { bool a = true ; return 0 ; }
+#include <stdio.h> #include <complex.h> int main ( ) { int complex z = 2 + 1 * I ; }
+#include <stdio.h> int main ( ) { printf ( " C Programming " ) ; return 0 ; }
+#include <stdio.h> int main ( ) { int testInteger = 5 ; printf ( " Number = %d " , testInteger ) ; return 0 ; }
+#include <stdio.h> int main ( ) { int chr = 69 ; printf ( " Character having ASCII value 69 is %c. " , chr ) ; return 0 ; }
+#include <stdio.h> int main ( ) { int var = 5 ; printf ( " Value : %d\n  " , var ) ; printf ( " Address : %u " , & var ) ; return 0 ; }
+#include <stdio.h> int main ( ) { printf ( " Current time : %s " , __TIME__ ) ; }
+#include <stdio.h> int main ( ) { printf ( " Catch me if you can. " ) ; } < / stdio.h>
+#include <stdio.h> int main ( ) { printf ( " Current time : %s " , __TIME__ ) ; }
+#include <stdio.h> int main ( ) { int a = 12 , b = 25 ; printf ( " Output = %d " , a & b ) ; return 0 ; }
+#include <stdio.h> int main ( ) { int a = 12 , b = 25 ; printf ( " Output = %d " , a|b ) ; return 0 ; }
+#include <stdio.h> int main ( ) { int a = 12 , b = 25 ; printf ( " Output = %d " , a^b ) ; return 0 ; }
+#include <stdio.h> int main ( ) { printf ( " Output = %d\n  " , ~35 ) ; printf ( " Output = %d\n  " , ~-12 ) ; return 0 ; }
+#include <stdio.h> int main ( ) { char c ; for ( c = 'A' ; c < = 'Z' ; + + c ) printf ( " %c " , c ) ; return 0 ; }
+#include <stdio.h> int main ( ) { int a = 12 , b = 25 ; printf ( " Output = %d " , a & b ) ; return 0 ; }
+#include <stdio.h> int main ( ) { int a = 12 , b = 25 ; printf ( " Output = %d " , a|b ) ; return 0 ; }
+#include <stdio.h> int main ( ) { int a = 12 , b = 25 ; printf ( " Output = %d " , a^b ) ; return 0 ; }
+#include <stdio.h> int main ( ) { printf ( " Output = %d\n  " , ~35 ) ; printf ( " Output = %d\n  " , ~-12 ) ; return 0 ; }
+#include <stdio.h> int main ( ) { printf ( " Current time : %s " , __TIME__ ) ; }
+#include <stdio.h> #include <conio.h> void main ( ) { clrscr ( ) ; printf ( " Hello Compiler , I am C " ) ; getch ( ) ; }
+#include <stdio.h> #include <conio.h> void main ( ) { clrscr ( ) ; printf ( " Hello World " ) ; getch ( ) ; }
+#include <stdio.h> #include <conio.h> void main ( ) { clrscr ( ) ; int num = 10 ; printf ( " The value of num is %d " , num ) ; getch ( ) ; }
+#include <conio.h> #include <stdlib.h> void main ( ) { clrscr ( ) ; system ( " C : \\Windows\\System32\\ipconfig " ) ; getch ( ) ; }
+#include <stdio.h> #include <stdlib.h> int main ( ) { system ( " C : \\Windows\\System32\\shutdown / s " ) ; return 0 ; }
+#include <stdio.h> #include <conio.h> int main ( ) { system ( " C : \\Windows\\System32\\shutdown / s / t 0 " ) ; return 0 ; }
+#include <stdio.h> int main ( ) { system ( " shutdown -P now " ) ; return 0 ; }
+#include <stdio.h> int main ( ) { system ( " shutdown -P now " ) ; return 0 ; }
+#include <stdio.h> void main ( ) { if ( printf ( " Hi.. Welcome to sanfoundry " ) ) { } }
+#include <stdio.h> struct temp { int a [ 10 ] ; char p ; } ;
+#include <stdio.h> printf ( " %d " , sizeof ( strlen ( " HELLOWORLD " ) ) ) ;
+#include <stdio.h> ( sizeof double = 8 , float = 4 , void = 1 ) #define PI 3.14 int main ( ) { printf ( " %d " , sizeof ( PI ) ) ; }
+#include <stdio.h> void main ( ) { int array [ 30 ] , temp [ 30 ] , i , j , k , l , num ;
+#include <stdio.h> #include <stdlib.h> #include <string.h> int top = -1 ; char stack [ 100 ] ;
+#include <stdio.h> #include <stdlib.h> #define MAX 10 struct node { int data ; struct node * link ; } * front , * rear ;
+#include <stdio.h> #include <stdlib.h> struct node { int data ; struct node * link ; } * top = NULL ; #define MAX 5
+#include <stdio.h> #include <stdlib.h> struct btnode { int value ; struct btnode * l ; struct btnode * r ; } * root = NULL , * ptr , * temp ;
+#include <stdio.h> #include <stdlib.h> struct btnode { int value ; struct btnode * l ; struct btnode * r ; } * root = NULL ;
+#include <stdio.h> #include <string.h> #include <stdlib.h> int gcd ( int x , int y ) { int r = 0 , a , b ; a = ( x > y ) ? x : y ;
+#include <stdio.h> int max ( int a , int b ) { return ( a > b ) ? a : b ; }
+#include <stdio.h> int main ( ) { printf ( " Hello World! %d \n  " , x ) ; return 0 ; }
+#include <stdio.h> int main ( ) { int y = 10000 ; int y = 34 ; printf ( " Hello World! %d\n  " , y ) ; return 0 ; }
+#include <stdio.h> int main ( ) { int main = 3 ; printf ( " %d " , main ) ; return 0 ; }
+#include <stdio.h> int main ( ) { int ThisIsVariableName = 12 ; int ThisIsVariablename = 14 ; printf ( " %d " , ThisIsVariablename ) ; return 0 ; }
+#include <stdio.h> int main ( ) { signed char chr ; chr = 128 ; printf ( " %d\n  " , chr ) ; return 0 ; }
+#include <stdio.h> int main ( ) { float f1 = 0.1 ; if ( f1 = = 0.1 ) printf ( " equal\n  " ) ; else printf ( " not equal\n  " ) ; }
+#include <stdio.h> int main ( ) { float f1 = 0.1 ; if ( f1 = = 0.1f ) printf ( " equal\n  " ) ; else printf ( " not equal\n  " ) ; }
+#include <stdio.h> union Sti { int nu ; char m ; } ; int main ( ) { union Sti s ; printf ( " %d " , sizeof ( s ) ) ; return 0 ; }
+#include <stdio.h> int main ( ) { float x = 'a' ; printf ( " %f " , x ) ; return 0 ; }
+#include <stdio.h> int main ( ) { enum { ORANGE = 5 , MANGO , BANANA = 4 , PEACH } ; printf ( " PEACH = %d\n  " , PEACH ) ; }
+#include <stdio.h> int main ( ) { printf ( " C programming %s " , " Class by\n  %s Sanfoundry " , " WOW " ) ; }
+#include <stdio.h> #define a 10 int main ( ) { const int a = 5 ; printf ( " a = %d\n  " , a ) ; }
+#include <stdio.h> int main ( ) { int var = 010 ; printf ( " %d " , var ) ; }
+#include <stdio.h> int main ( ) { printf ( " sanfoundry\rclass\n  " ) ; return 0 ; }
+#include <stdio.h> int main ( ) { printf ( " sanfoundry\r\n class\n  " ) ; return 0 ; }
+#include <stdio.h> int main ( ) { const int p ; p = 4 ; printf ( " p is %d " , p ) ; return 0 ; }
+#include <stdio.h> void main ( ) { int k = 4 ; int * const p = & k ; int r = 3 ; p = & r ; printf ( " %d " , p ) ; }
+#include <stdio.h> void main ( ) { int const k = 5 ; k + + ; printf ( " k is %d " , k ) ; }
+#include <stdio.h> int const print ( ) { printf ( " Sanfoundry.com " ) ; return 0 ; } void main ( ) { print ( ) ; }
+#include <stdio.h> void main ( ) { int k = 4 ; float k = 4 ; printf ( " %d " , k ) }
+#include <stdio.h> int main ( ) { int a = 1 , b = 2 ; a + = b - = a ; printf ( " %d %d " , a , b ) ; }
+#include <stdio.h> int x ; void main ( ) { if ( x ) printf ( " hi " ) ; else printf ( " how are u " ) ; }
+#include <stdio.h> void main ( ) { int x = 5 ; if ( true ) ; printf ( " hello " ) ; }
+#include <stdio.h> void main ( ) { int x = 5 ; if ( x < 1 ) ; printf ( " Hello " ) ; }
+#include <stdio.h> int main ( ) { while ( ) printf ( " In while loop " ) ; printf ( " After loop\n  " ) ; }
+#include <stdio.h> int main ( ) { do printf ( " In while loop " ) ; while ( 0 ) ; printf ( " After loop\n  " ) ; }
+#include <stdio.h> int main ( ) { int i = 0 ; do { i + + ; printf ( " In while loop\n  " ) ; } while ( i < 3 ) ; }
+#include <stdio.h> int main ( ) { int i = 0 ; do { i + + ; printf ( " in while loop\n  " ) ; } while ( i < 3 ) ; }
+#include <stdio.h> int main ( ) { int i = 0 ; while ( i < 3 ) i + + ; printf ( " In while loop\n  " ) ; }
+#include <stdio.h> void main ( ) { int i = 2 ; do { printf ( " Hi " ) ; } while ( i < 2 ) }
+#include <stdio.h> void main ( ) { int i = 0 ; while ( + + i ) { printf ( " H " ) ; } }
+#include <stdio.h> void main ( ) { int i = 0 ; do { printf ( " Hello " ) ; } while ( i ! = 0 ) ; }
+#include <stdio.h> int main ( ) { printf ( " %d " , 1 ) ; l1 : l2 : printf ( " %d " , 2 ) ; printf ( " %d\n  " , 3 ) ; }
+#include <stdio.h> int i ; int main ( ) { extern int i ; if ( i = = 0 ) printf ( " scope rules\n  " ) ; }
+#include <stdio.h> int main ( ) { extern ary1 [ ] ; printf ( " scope rules\n  " ) ; }
+#include <stdio.h> int main ( ) { extern ary1 [ ] ; printf ( " %d\n  " , ary1 [ 0 ] ) ; }
+#include <stdio.h> int main ( ) { int i ; for ( i = 0 ; i < 5 ; i + + ) int a = i ; printf ( " %d " , a ) ; }
+#include <stdio.h> int b ; int main ( ) { int c ; return 0 ; } int a ;
+#include <stdio.h> #include " test.h " #include " test.h " int main ( ) {
+#include <stdio.h> void main ( ) { #define max 37 ; printf ( " %d " , max ) ; }
+#include <stdio.h> void main ( ) { #define max 37 printf ( " %d " , max ) ; }
+#include <stdio.h> void main ( ) { #define const int const max = 32 ; printf ( " %d " , max ) ; }
+#include <stdio.h> void main ( ) { #define max 45 max = 32 ; printf ( " %d " , max ) ; }
+#include <stdio.h> # define max void m ( ) { printf ( " hi " ) ; } void main ( ) { max ; m ( ) ; }
+#include <stdio.h> #define A 1 + 2 #define B 3 + 4 int main ( ) { int var = A * B ; printf ( " %d\n  " , var ) ; }
+#include <stdio.h> #define var 20 ) ; int main ( ) { printf ( " %d\n  " , var }
+#include <stdio.h> void main ( ) { char * s = " hello " ; char * p = s * 3 ; printf ( " %c\t %c " , * p , s [ 1 ] ) ; }
+#include <stdio.h> void main ( ) { char * s = " hello " ; char * p = s + 2 ; printf ( " %c\t %c " , * p , s [ 1 ] ) ; }
+#include <stdio.h> int main ( ) { int a = 1 , b = 2 , c = 3 ; int * ptr1 = & a ; int * * sptr = & ptr1 ;
+#include <stdio.h> int main ( ) { int a = 10 ; int * * c - = & & a ; }
+#include <stdio.h> int main ( ) { char * a [ 2 ] = { " hello " , " hi " } ; printf ( " %d " , sizeof ( a ) ) ; return 0 ; }
+#include <stdio.h> struct student { char * c ; } ; void main ( ) { struct student * s ; s-> c = " hello " ; printf ( " %s " , s-> c ) ; }
+#include <stdio.h> struct student { char * c ; struct student point ; } ; void main ( ) { struct student s ; s.c = " hello " ; printf ( " %s " , s.c ) ; }
+#include <stdio.h> struct student { char * c ; struct student * point ; } ; void main ( ) { struct student s ; printf ( " %d " , sizeof ( s ) ) ; }
+#include <stdio.h> typedef struct student { char * a ; } stu ; void main ( ) { struct stu s ; s.a = " hi " ; printf ( " %s " , s.a ) ; }
+#include <stdio.h> typedef struct student { char * a ; } stu ; void main ( ) { struct student s ; s.a = " hey " ; printf ( " %s " , s.a ) ; }
+#include <stdio.h> typedef struct p { int x , y ; } ; int main ( ) { p k1 = { 1 , 2 } ; printf ( " %d\n  " , k1.x ) ; }
+#include <stdio.h> int main ( ) { FILE * fp = stdin ; int n ; fprintf ( fp , " %d " , 45 ) ; }
+#include <stdio.h> #include <stdlib.h> int main ( ) { FILE * fp = stdout ; int n ; fprintf ( fp , " %d " , 45 ) ; }
+#include <stdio.h> int main ( ) { char * str = " hello , world\n  " ; printf ( " %d " , strlen ( str ) ) ; }
+#include <stdio.h> void main ( ) { char * p = calloc ( 100 , 1 ) ; p = " welcome " ; printf ( " %s\n  " , p ) ; }
+#include <stdio.h> printf ( " %.0f " , 2.89 ) ;
+#include <stdio.h> int main ( ) { float a = 2.455555555555 ; printf ( " %f " , a ) ; }
+#include <stdio.h> printf ( " %d " , sizeof ( 'a' ) ) ;
+#include <stdio.h> union temp { char a ; char b ; int c ; } t ; int main ( ) { printf ( " %d " , sizeof ( t ) ) ; return 0 ; }
+#include <stdio.h> int main ( void ) { int a ; while ( a = getval ( ) , count ( a ) , a > 0 ) { ... } return 0 ; }
+#include <stdio.h> int main ( void ) { char name = 'A' ; 'A' = 10 ; return 0 ; }
+#include <stdio.h> int main ( void ) { const int gz = 122 ; gz = 111 ; return 0 ; }
+#include <stdio.h> void hahaha ( void ) ; int main ( void ) { hahaha ( ) ; return 0 ; } void hahaha ( void ) { printf ( " ha ha ha!\n  " ) ; }
+#include <stdio.h> int main ( void ) { int num = 100 ; for ( ; num > = 1 ; num-- ) { printf ( " %d\n  " , num ) ; } return 0 ; }
+#include <stdio.h> int main ( void ) { static int i ; printf ( " Default Value of \ " static variable i\ " is %d\n  " , i ) ; return 0 ; }
+#include <stdio.h> int main ( void ) { int * x = 10 , y ; return 0 ; }
+#include <stdio.h> int main ( ) { printf ( " Hello World!\n  " ) ; return 0 ; }
+#include <stdio.h> int main ( void ) { printf ( " Hello World!\n  " ) ; return 0 ; }
+#include <stdio.h> #include <stdlib.h> #define TRUE 1 #define FALSE 0 #define SIZE 512 #define MAX ( a , b ) ( ( a ) > ( b ) ? ( a ) : ( b ) )
+#include <stdio.h> #include <stdlib.h> #define BUFFSIZE 512 void sum2ints ( const int , const int ) ; void sum2floats ( const float , const float ) ;
+#include <stdio.h> int main ( void ) { char * str ; printf ( " how are you , dear xyz?\n  " ) ; gets ( str ) ; return 0 ; }
+#include <stdio.h> #include <stdlib.h> #include <signal.h> int main ( void ) { signal ( SIGINT , SIG_DFL ) ; while ( 1 ) return 0 ; }
+#include <stdio.h> #include <stdlib.h> #include <signal.h> int main ( void ) { signal ( SIGINT , SIG_IGN ) ; while ( 1 ) ; return 0 ; }
+#include <signal.h> #include <stdio.h> void handler ( int signal ) { if ( signal = = SIGINT ) } int main ( void ) { signal ( SIGINT , handler ) ; return 0 ; }
+#include <stdio.h> #include <stdlib.h> int main ( void ) { abort ( ) ; printf ( " \ " abort ( ) called prior to printf ( ) \ " \n  " ) ; return 0 ; }
+#include <stdio.h> #include <stdlib.h> int main ( void ) { printf ( " %d\n  " , abs ( 92.09998 ) ) ; printf ( " %ld\n  " , labs ( 123.88L ) ) ; return 0 ; }
+#include <stdio.h> int main ( void ) { int i , j = 0 ; for ( i = 0 ; i < 10 ; i + + ) j = j + 1 ; return 0 ; }
+#include <stdio.h> #include <stdlib.h> #include <signal.h> int main ( void ) { signal ( SIGINT , SIG_DFL ) ; while ( 1 ) return 0 ; }
+#include <stdio.h> #include <stdlib.h> #include <signal.h> int main ( void ) { signal ( SIGINT , SIG_IGN ) ; while ( 1 ) ; return 0 ; }
+#include <stdio.h> #include <stdlib.h> struct btnode { int value ; struct btnode * l ; struct btnode * r ; } * root = NULL ;
+#include <stdio.h> void combinationUtil ( int arr [ ] , int data [ ] , int start , int end , int index , int r ) { int j , i ;
+#include <stdio.h> void combinationUtil ( int arr [ ] , int data [ ] , int start , int end , int index , int r ) { int j , i ;
+#include <stdio.h> int main ( ) { printf ( " Hello World! " ) ; getch ( ) ; return 0 ; }
+#include <stdio.h> #include <stdlib.h> int main ( ) { printf ( " Directory = %s\n  " , getenv ( " DIR " ) ) ; return 0 ; }
+#include <stdio.h> int main ( ) { int i ; for ( i = 0 ; i <10 ; i + + ) { printf ( " %d " , i ) ; } }
+#include <stdio.h> int main ( ) { int i = 3 ; while ( i <10 ) { printf ( " %d\n  " , i ) ; i + + ; } }
+#include <stdio.h> int main ( ) { char string [ 20 ] = " fresh2refresh.com " ; printf ( " The string is : %s \n  " , string ) ; return 0 ; }
+#include <stdio.h> int main ( ) { int * ptr , q ; q = 50 ; ptr = & q ; printf ( " %d " , * ptr ) ; return 0 ; }
+#include <stdio.h> int main ( ) { float x ; x = ( float ) 7 / 5 ; printf ( " %f " , x ) ; }
+#include <stdio.h> #include <stdlib.h> int main ( ) { printf ( " Directory = %s\n  " , getenv ( " DIR " ) ) ; return 0 ; }
+#include <stdio.h> #include <stdlib.h> int main ( ) { printf ( " Suspends the execution of the program " \ " for particular time " ) ; delay ( 5000 ) ; return 0 ; }
+#include <stdio.h> #define max 100 int main ( ) { printf ( " max is %d " , max ) ; return 0 ; }
+#include <stdio.h> #define MULTIPLY ( a , b ) a * b int main ( ) { printf ( " %d " , MULTIPLY ( 2 + 3 , 3 + 5 ) ) ; return 0 ; }
+#include <stdio.h> #define merge ( a , b ) a##b int main ( ) { printf ( " %d " , merge ( 12 , 34 ) ) ; }
+#include <stdio.h> #define get ( a ) #a int main ( ) { printf ( " %s " , get ( GeeksQuiz ) ) ; }
+#include <stdio.h> #define LIMIT 100 int main ( ) { printf ( " %d " , LIMIT ) ; #undef LIMIT printf ( " %d " , LIMIT ) ; return 0 ; }
+#include <stdio.h> int main ( void ) { printf ( " My mobile number " " is 7\a8\a7\a3\a9\a2\a3\a4\a0\a8\a " ) ; return ( 0 ) ; }
+#include <stdio.h> int main ( void ) { printf ( " Hello Geeks\b\b\b\bF " ) ; return ( 0 ) ; }
+#include <stdio.h> int main ( void ) { printf ( " Hello\n  " ) ; printf ( " GeeksforGeeks " ) ; return ( 0 ) ; }
+#include <stdio.h> int main ( void ) { printf ( " Hello \t GFG " ) ; return ( 0 ) ; }
+#include <stdio.h> int main ( void ) { printf ( " Hello friends " ) ; printf ( " \v Welcome to GFG " ) ; return ( 0 ) ; }
+#include <stdio.h> int main ( void ) { printf ( " Hello fri \r ends " ) ; return ( 0 ) ; }
+#include <stdio.h> int main ( void ) { printf ( " Hello\\GFG " ) ; return ( 0 ) ; }
+#include <stdio.h> int main ( void ) { printf ( " \' Hello Geeks\n  " ) ; printf ( " \ " Hello Geeks " ) ; return 0 ; }
+#include <stdio.h> int main ( void ) { printf ( " \?\?!\n  " ) ; return 0 ; }
+#include <stdio.h> int main ( void ) { char * s = " A\0725 " ; printf ( " %s " , s ) ; return 0 ; }
+#include <stdio.h> int main ( void ) { char * s = " B\x4a " ; printf ( " %s " , s ) ; return 0 ; }
+#include <stdio.h> static int animals = 8 ; const int i = 5 ; int call_me ( void ) { printf ( " %d %d " , i , animals ) ; }
+#include <stdio.h> int main ( ) { call_me ( ) ; animals = 2 ; printf ( " %d " , animals ) ; return 0 ; }
+#include <stdio.h> int main ( ) { const int num = 1 ; num = 5 ; return 0 ; }
+#include <iostream> int main ( ) { int var = 5 ; constexpr int k = var ; std : : cout < < k ; return 0 ; }
+#include <stdio.h> #define var 5 int main ( ) { printf ( " %d " , var ) ; #ifdef var #undef var #define var 10 #endif printf ( " %d " , var ) ; return 0 ; }
+#include <stdio.h> int fun ( int x ) { return ( x + 5 ) ; } int y = fun ( 20 ) ; int main ( ) { printf ( " %d " , y ) ; }
+#include <stdio.h> int main ( ) { float x = 0.1 ; printf ( " %d %d %d " , sizeof ( x ) , sizeof ( 0.1 ) , sizeof ( 0.1f ) ) ; return 0 ; }
+#include <stdio.h> int main ( ) { double x = 1.2 ; int sum = ( int ) x + 1 ; printf ( " sum = %d " , sum ) ; return 0 ; }
+#include " somefile.h " extern int var ; int main ( void ) { var = 10 ; return 0 ; }
+#include <stdio.h> int main ( ) { int x = 10 ; int y = 15 ; printf ( " %d " , ( x , y ) ) ; getchar ( ) ; return 0 ; }
+#include <stdio.h> int main ( ) { int a = sizeof ( printf ( " hey " ) ) ; printf ( " %d " , a ) ; return 0 ; }
+#include <stdio.h> #define mkstr ( s ) #s int main ( void ) { printf ( mkstr ( geeksforgeeks ) ) ; return 0 ; }
+#include <iostream> using namespace std ; #define a 8.3297 int main ( ) { cout < < " Value of a is " < < a < < endl ; return 0 ; }
+#include <stdio.h> #define concat ( a , b ) a##b int main ( void ) { int xy = 30 ; printf ( " %d " , concat ( x , y ) ) ; return 0 ; }
+#include <stdio.h> #include " myhead.h " int main ( ) { add ( 4 , 6 ) ; multiply ( 5 , 5 ) ; printf ( " BYE!See you Soon " ) ; return 0 ; }
+#include <stdio.h> int main ( void ) { char generate [ L_tmpnam + 1 ] ; tmpnam ( generate ) ; puts ( generate ) ; return 0 ; }
+#include <stdio.h> typedef unsigned char BYTE ; int main ( ) { BYTE b1 , b2 ; b1 = 'c' ; printf ( " %c " , b1 ) ; return 0 ; }
+#include <stdio.h> #define HYD " Hyderabad " int main ( ) { printf ( " %s " , HYD ) ; return 0 ; }
+#include <stdio.h> #include <unistd.h> int main ( ) { int i ; printf ( " I am EXEC.c called by execvp ( ) " ) ; printf ( " \n  " ) ; return 0 ; }
+#include <stdio.h> #include <unistd.h> int main ( ) { int i ; printf ( " I am EXEC.c called by execv ( ) " ) ; printf ( " \n  " ) ; return 0 ; }
+#include <stdio.h> int main ( ) { int arr [ ] = { 10 , 20 } , x = 10 ; int * ptr = & x ; arr = & x ; return 0 ; }
+#include <stdio.h> #include <string.h> int main ( ) { char source [ ] = " GeeksForGeeks " ; char * target = strdup ( source ) ; printf ( " %s " , source ) ; return 0 ; }
+#include “studio.h” int main ( ) { printf ( “ %s” , __func__ ) ; return 0 ; }
+#include “stdio.h” int __func__ = 10 ; int main ( ) { printf ( “ %d” , __func__ ) ; return 0 ; }
+#include " stdio.h " int main ( ) { printf ( " In file : %s , function : %s ( ) and line : %d " , __FILE__ , __func__ , __LINE__ ) ; return 0 ; }
+#include <ctype.h> #include <stdio.h> int main ( ) { char ch = 'G' ; printf ( " %c in lowercase is represented as = %c " , ch , tolower ( ch ) ) ; return 0 ; }
+#include <stdio.h> #include <time.h> int main ( ) { time_t seconds ; time ( & seconds ; ) ; printf ( " Seconds since January 1 , 1970 = %ld\n  " , seconds ) ; return 0 ; }
+#include <stdio.h> #include <stdlib.h> int main ( void ) { int * ptr = ( int * ) malloc ( 10 ) ; return 0 ; }
+#include <stdio.h> #include <stdlib.h> int main ( void ) { int * ptr = ( int * ) malloc ( 10 ) ; realloc ( ptr , 0 ) ; return 0 ; }
+#include <stdio.h> int main ( void ) { printf ( " Welcome to GeeksforGeeks " ) ; return 0 ; }
+#include <stdio.h> int main ( void ) { printf ( " Welcome to GeeksforGeeks " ) ; return 0 ; }
+#include <stdio.h> #pragma warn -rvl #pragma warn -par #pragma warn -rch int show ( int x ) { printf ( " GEEKSFORGEEKS " ) ; } int main ( ) { show ( 10 ) ; return 0 ; }
+#include <stdio.h> int main ( ) { const int var = 10 ; var = 15 ; printf ( " var = %d\n  " , var ) ; return 0 ; }
+#include <stdio.h> #include <string.h> int main ( ) { char str [ ] = " geeks " ; printf ( " Length of string is : %d " , strlen ( str ) ) ; return 0 ; }
+#include <stdio.h> #include <string.h> int main ( ) { char * str = " geeks " ; printf ( " Length of string is : %d " , strlen ( str ) ) ; return 0 ; }
+#include <ctype.h> #include <stdio.h> int main ( ) { char ch ; ch = 'g' ; printf ( " %c in uppercase is represented as %c " , ch , toupper ( ch ) ) ; return 0 ; }
+#include <iostream> using namespace std ; int main ( ) { float var = 37.66666 ; printf ( " %.2f " , var ) ; return 0 ; }
+#include <stdio.h> int main ( ) { int x = 012 ; printf ( " %d " , x ) ; return 0 ; }
+#include <stdio.h> int main ( ) { char str [ ] = " 31\01267 " ; printf ( " %s " , str ) ; return 0 ; }
+#include <stdbool.h> int main ( ) { bool arr [ 2 ] = { true , false } ; return 0 ; }
+#include <stdio.h> int main ( ) { static int x ; int y ; printf ( " %d \n  %d " , x , y ) ; }
+#include <stdio.h> #define getName ( var ) #var int main ( ) { int myVar ; printf ( " %s " , getName ( myVar ) ) ; return 0 ; }
+#include " stdio.h " int main ( ) { printf ( " %d %d %d " , sizeof ( float ) , sizeof ( double ) , sizeof ( long double ) ) ; return 0 ; }
+#include " stdio.h " #define PI 3.14 int main ( ) { printf ( " %d " , sizeof ( PI ) ) ; return 0 ; }
+#include " stdio.h " int main ( ) { printf ( " %d %d " , sizeof ( 3.14F ) , sizeof ( 3.14L ) ) ; return 0 ; }
+#include <iostream> using namespace std ; int main ( ) { float f = 3.5 ; int b = static_cast <int> ( f ) ; cout < < b ; }
+#include <stdio.h> int main ( ) { char a = 278 ; printf ( " %d " , a ) ; return 0 ; }
+#include <stdio.h> int main ( ) { char a = -129 ; printf ( " %d " , a ) ; return 0 ; }
+#include <stdio.h> int main ( ) { int x = NULL ; }
+#include <stdio.h> int main ( ) { int x = nullptr ; }
+#include <iostream> using namespace std ; class Empty { } ; int main ( ) { cout < < sizeof ( Empty ) ; return 0 ; }
+#include <iostream> using namespace std ; class Empty { } ; class Derived : Empty { int a ; } ; int main ( ) { cout < < sizeof ( Derived ) ; return 0 ; }
+#include <stdio.h> int main ( ) { char ch = 'G' ; putchar ( ch ) ; return ( 0 ) ; }
+#include <stdio.h> int main ( ) { char ch = '1' ; for ( ch = '1' ; ch < = '9' ; ch + + ) putchar ( ch ) ; return ( 0 ) ; }
+#include & lt ; iostream & gt ; using namespace std ; int main ( ) { cout & lt ; < " Hello World " ; return 0 ; }
+#include <iostream> using namespace std ; int main ( ) { int a = 5 , b = 10 , sum ; sum = a + b ; cout < < sum ; return 0 ; }
+#include & lt ; iostream & gt ; using namespace std ; int main ( ) { cout & lt ; < " Hello World " ; return 0 ; }
+#include <stdio.h> int main ( ) { int a = 0 ; double d = 10.21 ; printf ( " %d " , sizeof ( a + d ) ) ; return 0 ; }
+#include <stdio.h> int main ( ) { printf ( " %d " , sizeof ( 'a' ) ) ; return 0 ; }
+#include <stdio.h> int T ; int main ( ) { struct T { double x ; } ; printf ( " %d " , sizeof ( T ) ) ; return 0 ; }
+#include <iostream> using namespace std ; int main ( ) { int x , y ; x = 1 ; y = compl x ; cout < < y ; return 0 ; }
+#include <stdio.h> int main ( ) { foo ( ) ; } int foo ( ) { printf ( " Hello " ) ; return 0 ; }
+#include <stdio.h> int main ( void ) { int const j = 20 ; int * ptr = & j ; printf ( " * ptr : %d\n  " , * ptr ) ; return 0 ; }
+#include <stdio.h> int main ( ) { void * vptr ; int * iptr = vptr ; return 0 ; }
+#include <stdio.h> int main ( ) { const int a ; return 0 ; }
+#include <stdio.h> int main ( void ) { int new = 5 ; printf ( " %d " , new ) ; }
+#include <stdio.h> int main ( ) { char * c = 333 ; printf ( " c = %u " , c ) ; return 0 ; }
+#include <stdio.h> void main ( ) { printf ( " Hello World " ) ; }
+#include <iostream> using namespace std ; int main ( ) { cout < < " Hello World! " < < endl ; system ( " pause " ) ; return 0 ; }
+#include <iostream> #include <cstdlib> using namespace std ; int main ( ) { cout < < " Hello World! " < < endl ; cin.get ( ) ; return 0 ; }
+#include <stdio.h> int main ( ) { char * s = " geeksquiz " ; printf ( " %lu " , sizeof ( s ) ) ; return 0 ; }
+#include <stdio.h> int main ( ) { const char * s = " geeksquiz " ; printf ( " %lu " , sizeof ( s ) ) ; return 0 ; }
+#include <iostream> #include <cstdlib> using namespace std ; int main ( ) { int * arr = ( int * ) malloc ( sizeof ( float ) * 20 ) ; return 0 ; }
+#include <iostream> class Test { static Test * fun ( ) { return this ; } } ; int main ( ) { getchar ( ) ; return 0 ; }
+#include <iostream> class Test { static void fun ( ) { } void fun ( ) { } } ; int main ( ) { getchar ( ) ; return 0 ; }
+#include <iostream> class Test { static void fun ( ) const { return ; } } ; int main ( ) { getchar ( ) ; return 0 ; }
+#include <iostream> int main ( ) { int main = 10 ; std : : cout < < main ; return 0 ; }
+#include <stdio.h> void myStartupFun ( void ) __attribute__ ( ( constructor ) ) ; void myStartupFun ( void ) { printf ( " GeeksforGeeks " ) ; } int main ( ) { }
+#include <stdio.h> #include <stdlib.h> int main ( void ) { } void _start ( void ) { printf ( " GeeeksforGeeks " ) ; int var = main ( ) ; exit ( var ) ; }
+#include <iostream> class MyClass { public : MyClass ( ) { std : : cout < < " GeeksforGeeks " ; } } m ; int main ( ) { }
+#include <iostream> struct Mystruct { Mystruct ( ) { std : : cout < < " GeeksforGeeks " ; } } obj ; int main ( ) { }
+#include <cstdio> int var = printf ( " GeeksforGeeks " ) ; int main ( ) { }
+#include <stdio.h> #include <string.h> int main ( ) { char str [ ] = " geeksforgeeks is the best " ; printf ( " %s\n  " , strupr ( str ) ) ; return 0 ; }
+#include <stdio.h> int main ( ) { printf ( " %d " , NULL ) ; return 0 ; }
+#include <stdio.h> int main ( ) { printf ( " %d " , sizeof ( NULL ) ) ; return 0 ; }
+#include <stdio.h> int main ( ) { int * ptr = NULL ; printf ( " %d " , * ptr ) ; return 0 ; }
+#include <stdio.h> int main ( ) { printf ( " %d " , sizeof ( void ) ) ; return 0 ; }
+#include <stdio.h> int main ( ) { printf ( " %d " , sizeof ( void * ) ) ; return 0 ; }
+#include <iostream> using namespace std ; int main ( ) { int x = 0101 ; cout < < x ; return 0 ; }
+#include <iostream> using namespace std ; int main ( ) { int x = 020 ; cout < < x ; return 0 ; }
+#include <iostream> using namespace std ; int main ( ) { int x = 090 ; cout < < x ; return 0 ; }
+#include <stdio.h> void ( foo ) ( int n ) { printf ( " Function : %d " , n ) ; } int main ( ) { ( foo ) ( 4 ) ; return 0 ; }
+#include <stdio.h> #include <string.h> int main ( ) { char str [ ] = " GEEKSFORGEEKS IS THE BEST " ; printf ( " %s\n  " , strlwr ( str ) ) ; return 0 ; }
+#include <iostream> using namespace std ; void fun ( ) { class Test { } ; } int main ( ) { return 0 ; }
+#include <iostream> using namespace std ; void fun ( ) { class Test { } ; Test t ; Test * tp ; } int main ( ) { Test t ; Test * tp ; return 0 ; }
+#include <iostream> using namespace std ; void fun ( ) { class Test { static int i ; } ; } int main ( ) { return 0 ; }
+#include <stdio.h> int main ( ) { char * p = NULL ; printf ( " %s " , p ) ; return 0 ; }
+#include <stdio.h> #include <math.h> int main ( ) { float num = 5.48958123 ; num = floor ( 10000 * num ) / 10000 ; printf ( " %f " , num ) ; return 0 ; }
+#include <stdio.h> int main ( ) { float num = 5.48958123 ; printf ( " %0.4f " , num ) ; return 0 ; }
+#include <stdio.h> int main ( ) { char a123 = 'a' ; float b ; int _c , _d45 , e ; printf ( " %c \n  " , a123 ) ; return 0 ; }
+#include <iostream> using namespace std ; int main ( ) { for ( char a = 0 ; a < = 225 ; a + + ) cout < < a ; return 0 ; }
+#include <iostream> using namespace std ; int main ( ) { bool a = true ; for ( a = 1 ; a < = 5 ; a + + ) cout < < a ; return 0 ; }
+#include <stdio.h> int main ( ) { char ch = 'A' ; printf ( " %c\n  " , ch ) ; return 0 ; }
+#include <stdio.h> int main ( ) { int x = 45 , y = 90 ; printf ( " %d\n  " , x ) ; printf ( " %i\n  " , x ) ; return 0 ; }
+#include <stdio.h> int main ( ) { float a = 12.67 ; printf ( " %f\n  " , a ) ; printf ( " %e\n  " , a ) ; return 0 ; }
+#include <stdio.h> int main ( ) { int a = 67 ; printf ( " %o\n  " , a ) ; return 0 ; }
+#include <stdio.h> int main ( ) { int a = 15 ; printf ( " %x\n  " , a ) ; return 0 ; }
+#include <stdio.h> int main ( ) { char a [ ] = " geeksforgeeks " ; printf ( " %s\n  " , a ) ; return 0 ; }
+#include <stdio.h> int main ( ) { int a = 0 ; scanf ( " %d " , & a ; ) ; printf ( " %d\n  " , a ) ; return 0 ; }
+#include <stdio.h> int main ( ) { float a = 0.0 ; scanf ( " %f " , & a ; ) ; printf ( " %f\n  " , a ) ; return 0 ; }
+#include <stdio.h> int main ( ) { char str [ 20 ] ; scanf ( " %s " , str ) ; printf ( " %s\n  " , str ) ; return 0 ; }
+#include <stdio.h> int main ( ) { char ch ; scanf ( " %c " , & ch ; ) ; printf ( " %c\n  " , ch ) ; return 0 ; }
+#include <iostream> int foo ( ) { return 10 ; } char foo ( ) { return 'a' ; } int main ( ) { char x = foo ( ) ; getchar ( ) ; return 0 ; }
+#include <iostream> class Test { static void fun ( int i ) { } void fun ( int i ) { } } ; int main ( ) { Test t ; getchar ( ) ; return 0 ; }
+#include <stdio.h> int main ( ) { int i = 1 ; while ( i < 6 ) { printf ( " Hello World\n  " ) ; i + + ; } return 0 ; }
+#include <stdio.h> int main ( ) { int i = 2 ; do { printf ( " Hello World\n  " ) ; i + + ; } while ( i < 1 ) ; return 0 ; }
+#include <stdio.h> int main ( ) { int i ; for ( ; ; ) { printf ( " This loop will run forever.\n  " ) ; } }
+#include <iostream> using namespace std ; int main ( ) { int i ; for ( ; ; ) { cout < < " This loop will run forever.\n  " ; } }
+#include <stdio.h> int main ( ) { double x = 1.2 ; int sum = ( int ) x + 1 ; printf ( " sum = %d " , sum ) ; return 0 ; }
+#include <stdio.h> int main ( void ) { printf ( " Hello Geeks\b\b\b\bF " ) ; return ( 0 ) ; }
+#include <iostream> using namespace std ; int fun ( int & x ; ) { return x ; } int main ( ) { cout < < fun ( 10 ) ; return 0 ; }
+#include <iostream> using namespace std ; int main ( ) { int x = 10 ; int * ptr = & x ; int & * ptr1 = ptr ; }
+#include <iostream> using namespace std ; int main ( ) { int * ptr = NULL ; int & ref ; = * ptr ; cout < < ref ; }
+#include <iostream> using namespace std ; int main ( ) { try { throw 'a' ; } catch ( int x ) { cout < < " Caught " ; } return 0 ; }
+#include <stdio.h> int main ( ) { printf ( " Size = %lu " , sizeof ( size_t ) ) ; }
+#include <iostream> using namespace std ; int main ( ) { char str [ ] = " Hello " ; str [ 1 ] = 'o' ; cout < < str < < endl ; return 0 ; }
+#include <iostream> using namespace std ; class A { int x ; public : A ( ) { x = 0 ; } void fun ( ) { delete this ; cout < <x ; } } ;
+#include <bits / stdc + + .h> int x = printf ( " Hello World " ) ; int main ( ) { }
+#include <iostream> using namespace std ; class A { public : A ( ) { cout < < " Hello World " ; } } ; A obj ; int main ( ) { }
+#include <stdio.h> void main ( ) { int a ; 10 = a ; }
+#include <bits / stdc + + .h> using namespace std ; int main ( ) { int * array = new int [ 10 ] ; delete [ ] array ; return 0 ; }
+#include <bits / stdc + + .h> using namespace std ; int main ( ) { int * ptr = NULL ; delete ptr ; return 0 ; }
+#include <bits / stdc + + .h> using namespace std ; int main ( ) { void * ptr ; delete ptr ; cout < < " ptr deleted successfully " ; return 0 ; }
+#include <bits / stdc + + .h> using namespace std ; int main ( ) { int x ; delete x ; return 0 ; }
+#include <bits / stdc + + .h> using namespace std ; int main ( ) { int x ; int * ptr1 = & x ; delete ptr1 ; return 0 ; }
+#include <iostream> using namespace std ; void fun ( ) { cout < < " Hello " ; return ; } int main ( ) { fun ( ) ; return 0 ; }
+#include <iostream> #include " Header1.h " #include " Header2.h " using namespace std ; using namespace one ; using namespace two ; int main ( ) { print ( ) ; }
+#include <iostream> #include " Header1.h " #include " Header2.h " int main ( ) { one : : print ( ) ; two : : print ( ) ; }
+#include <iostream> using namespace std ; int main ( ) { char sample [ ] = " GeeksforGeeks " ; cout < < sample < < " - A computer science portal for geeks " ; return 0 ; }
+#include <iostream> using namespace std ; int main ( ) { cerr < < " An error occured " ; return 0 ; }
+#include <iostream> using namespace std ; int main ( ) { clog < < " An error occured " ; return 0 ; }
+#include <iostream> using namespace std ; void func ( ) { int age = 18 ; } int main ( ) { cout < < " Age is : " < <age ; return 0 ; }
+#include <iostream> using namespace std ; int global = 5 ; int main ( ) { int global = 2 ; cout < < global < < endl ; }
+#include <stdio.h> int main ( ) { printf ( " This is output from my first program!\n  " ) ; return 0 ; }
+#include <stdio.h> void main ( ) { printf ( " %d\n  " , add ( 3 ) ) ; } int add ( int i , int j ) { return i + j ; }
+#include <stdio.h> void main ( ) { printf ( " %d\n  " , add ( 3 ) ) ; } float add ( int i , int j ) { return i + j ; }
+#include <stdio.h> void main ( ) { int * p ; printf ( " %d\n  " , * p ) ; }
+#include <string.h> int main ( ) { char s1 [ 100 ] , s2 [ 100 ] ; strcpy ( s1 , " hello " ) ; strcpy ( s2 , s1 ) ; return 0 ; }
+#include <stdio.h> int main ( ) { printf ( " Hello World! " ) ; return 0 ; }
+#include <stdio.h> void printMessage ( void ) { printf ( " Hello World! " ) ; } int main ( ) { printMessage ( ) ; return 0 ; }
+#include <stdio.h> int main ( ) { printf ( " Hello world\n  " ) ; return 0 ; }
+#include <stdio.h> int main ( ) { while ( 1 )
+#include <stdio.h> int main ( ) { int c ; for ( c = 1 ; c < = 100 ; c + + ) printf ( " %d " , c ) ; return 0 ; }
+#include <stdio.h> int main ( ) { char ch ; printf ( " Enter a character\n  " ) ; scanf ( " %c " , & ch ) ;
+#include <stdio.h> void swap ( int * , int * ) ;
+#include <stdio.h> int main ( ) { char z [ 100 ] = " I am learning C programming language. " ; printf ( " %s " , z ) ;
+#include <stdlib.h> int main ( ) { system ( " C : \\Windows\\System32\\ipconfig " ) ; return 0 ; }
+#include <stdio.h> #include <stdlib.h> int main ( ) { system ( " C : \\WINDOWS\\System32\\shutdown / s " ) ; return 0 ; }
+#include <stdio.h> int main ( ) { system ( " shutdown -P now " ) ; return 0 ; }
+#include <stdio.h> int main ( ) { printf ( " Hello World\n  " ) ; return 0 ; }
+#include <stdio.h> int main ( ) { int x ; printf ( " Input an integer\n  " ) ; scanf ( " %d " , & x ) ;
+#include <stdio.h> int main ( ) { int c = 1 ;
+#include <stdio.h> #include <string.h> struct game { char game_name [ 50 ] ; int number_of_players ; } ;
+#include <stdio.h> int main ( ) { int c ; for ( c = 1 ; c < = 10 ; c + + ) printf ( " %d\n  " , c ) ; return 0 ; }
+#include <stdio.h> int main ( ) { int n , c = 1 ; scanf ( " %d " , & n ) ;
+#include <stdio.h> #include <conio.h> main ( ) { printf ( " Waiting for a character to be pressed from the keyboard to exit.\n  " ) ; getch ( ) ; return 0 ; }
+#include <iostream.h> #include <conio.h> main ( ) { cout < < " Enter a character " ; getch ( ) ; }
+#include <stdio.h> main ( ) { int c ; c = getchar ( ) ; putchar ( c ) ; return 0 ; }
+#include <stdio.h> #include <conio.h> main ( ) { printf ( " Waiting for a character to be pressed from the keyboard to exit. " ) ; getche ( ) ; return 0 ; }
+#include <stdio.h> #include <conio.h> main ( ) { textcolor ( RED ) ; cprintf ( " C programming " ) ; getch ( ) ; return 0 ; }
+#include <stdio.h> #include <conio.h> main ( ) { textcolor ( MAGENTA + BLINK ) ; cprintf ( " C programming " ) ; getch ( ) ; return 0 ; }
+#include <stdio.h> int main ( ) { printf ( " Hello World! " ) ; return 0 ; }
+#include <stdio.h> int main ( ) { char c ; c = 'A' ; printf ( " value of c is %c " , c ) ; return 0 ; }
+#include <stdio.h> int main ( ) { int i ; i = 123 ; printf ( " value of i is %d " , i ) ; return 0 ; }
+#include <stdio.h> int main ( ) { float f ; f = 12.001234 ; printf ( " value of f is %f " , f ) ; return 0 ; }
+#include <stdio.h> int main ( ) { double d ; d = 12.001234 ; printf ( " value of d is %e " , d ) ; return 0 ; }
+#include <stdio.h> int main ( ) { char str [ ] = " Hello World " ; printf ( " %s\n  " , str ) ; return 0 ; }
+#include <stdio.h> int main ( ) { int n = 5 ; printf ( " Cube of %d = %d " , n , ( n * n * n ) ) ; return 0 ; }
+#include int main ( ) { printf ( " Hello C Programming\n  " ) ; return 0 ; }
+#include int main ( ) { printf ( " Hello C Programming\n  " ) ; return 0 ; }
+#include int main ( ) { printf ( " Hello C Language " ) ; return 0 ; }
+#include int main ( ) { printf ( " Hello C Language " ) ; return 0 ; }
+#include " myfile.h " #include void printValue ( ) { printf ( " Global variable : %d " , global_variable ) ; }
+#include int main ( ) { printf ( " Hello C " ) ; return 0 ; }
+#include int main ( ) { printf ( " Hello C " ) ; return 0 ; }
+#include int main ( ) { int number = 50 ; printf ( " You\n are\n learning\n \'c\' language\n \ " Do you know C language\ " " ) ; return 0 ; }
+#include int main ( ) { const float PI = 3.14 ; printf ( " The value of PI is : %f " , PI ) ; return 0 ; }
+#include int main ( ) { const float PI = 3.14 ; PI = 4.5 ; printf ( " The value of PI is : %f " , PI ) ; return 0 ; }
+#include int main ( ) { int i = 1 ; while ( i < = 10 ) { printf ( " %d \n  " , i ) ; i + + ; } return 0 ; }
+#include <stdio.h> void main ( ) { while ( ) { printf ( " hello Javatpoint " ) ; } }
+#include <stdio.h> void main ( ) { int x = 10 , y = 2 ; while ( x + y-1 ) { printf ( " %d %d " , x-- , y-- ) ; } }
+#include <stdio.h> int main ( ) { int i = 1 ; for ( ; i <5 ; i + + ) { printf ( " %d " , i ) ; } }
+#include <stdio.h> int main ( ) { int i ; for ( i = 0 ; i < = 4 ; i + + ) { printf ( " %d " , i ) ; } }
+#include <stdio.h> int main ( ) { int i ; for ( i = 0 ; ; i + + ) { printf ( " %d " , i ) ; } }
+#include <stdio.h> void main ( ) { int i ; for ( i = 0 ; i <10 ; i + + ) { int i = 20 ; printf ( " %d " , i ) ; } }
+#include <stdio.h> void main ( ) { for ( ; ; ) { printf ( " welcome to javatpoint " ) ; } }
+#include <stdio.h> void main ( ) { int i = 0 ; while ( i! = 10 ) { printf ( " %d " , i ) ; continue ; i + + ; } }
+#include int main ( ) { float f = ( float ) 9 / 4 ; printf ( " f : %f\n  " , f ) ; return 0 ; }
+#include <stdio.h> void printName ( ) ; void main ( ) { printf ( " Hello " ) ; printName ( ) ; } void printName ( ) { printf ( " Javatpoint " ) ; }
+#include <stdio.h> int main ( ) { int a ; char b ; float c ; printf ( " %d %c %f " , a , b , c ) ; return 0 ; }
+#include <stdio.h> int main ( ) { register int a ; printf ( " %d " , a ) ; }
+#include <stdio.h> int main ( ) { register int a = 0 ; printf ( " %u " , & a ; ) ; }
+#include <stdio.h> int main ( ) { extern int a ; printf ( " %d " , a ) ; }
+#include int a ; int main ( ) { extern int a ; printf ( " %d " , a ) ; }
+#include int a ; int main ( ) { extern int a = 0 ; printf ( " %d " , a ) ; }
+#include int main ( ) { extern int a ; printf ( " %d " , a ) ; } int a = 20 ;
+#include main ( ) { char x [ ] = " Hi\0Hello " ; printf ( " %d %d " , strlen ( x ) , sizeof ( x ) ) ; }
+#include int main ( ) { int number = 50 ; printf ( " value of number is %d , address of number is %u " , number , & number ) ; return 0 ; }
+#include <stdio.h> void main ( ) { char s [ 11 ] = " javatpoint " ; char * p = s ; printf ( " %s " , p ) ; }
+#include void main ( ) { char s [ 30 ] ; printf ( " Enter the string? " ) ; gets ( s ) ; printf ( " You entered %s " , s ) ; }
+#include void main ( ) { char str [ 20 ] ; printf ( " Enter the string? " ) ; fgets ( str , 20 , stdin ) ; printf ( " %s " , str ) ; }
+#include int main ( ) { char a [ ] = " %d\n  " ; a [ 1 ] = 'b' ; printf ( a , 65 ) ; return 0 ; }
+#include main ( ) { union abc { int a ; char cha ; } var ; var.cha = 'A' ; printf ( " %d " , var.a ) ; }
+#include main ( ) { FILE * fp ; fp = fopen ( " file1.txt " , " w " ) ; fputc ( 'a' , fp ) ; fclose ( fp ) ; }
+#include int main ( ) { printf ( " Hello C " ) ; return 0 ; }
+#include #define PI 3.14 main ( ) { printf ( " %f " , PI ) ; }
+#include #define PI 3.14 #undef PI main ( ) { printf ( " %f " , PI ) ; }
+#include #define number 15 int square = number * number ; #undef number main ( ) { printf ( " %d " , square ) ; }
+#include #include #define NUMBER 0 void main ( ) { #if ( NUMBER = = 0 ) printf ( " Value of Number is : %d " , NUMBER ) ; #endif getch ( ) ; }
+#include #ifndef __MATH_H #error First include then compile #else void main ( ) { float a ; a = sqrt ( 7 ) ; printf ( " %f " , a ) ; } #endif
+#include #include #ifndef __MATH_H #error First include then compile #else void main ( ) { float a ; a = sqrt ( 7 ) ; printf ( " %f " , a ) ; } #endif
+#include int main ( ) { if ( printf ( " hello world " ) ) { } return 0 ; }
+#include int main ( ) { switch ( printf ( " hello world " ) ) { } return 0 ; }
+#include int main ( ) { while ( !printf ( " hello world " ) ) { } return 0 ; }
+#include #define start main void start ( ) { printf ( " Hello " ) ; }
+#include <stdio.h> int main ( ) { int * p ; int a = 5 ; p = & a ; printf ( " Address value of 'a' variable is %u " , p ) ; return 0 ; }
+#include <stdio.h> void main ( ) { int * ptr = malloc ( constant value ) ; free ( ptr ) ; }
+#include <stdio.h> void main ( ) { int * ptr = malloc ( constant value ) ; free ( ptr ) ; ptr = NULL ; }
+#include #define start main void start ( ) { printf ( " Hello " ) ; }
+#include <stdio.h> void main ( ) { if ( printf ( " hello world " ) ) { } }
+#include int main ( ) { printf ( " Hello C Programming\n  " ) ; return 0 ; }
+#include int main ( ) { printf ( " Hello C Language " ) ; return 0 ; }
+#include int main ( ) { printf ( " Hello C Language " ) ; return 0 ; }
+#include " myfile.h " #include void printValue ( ) { printf ( " Global variable : %d " , global_variable ) ; }
+#include int main ( ) { printf ( " Hello C " ) ; return 0 ; }
+#include int main ( ) { printf ( " Hello C " ) ; return 0 ; }
+#include int main ( ) { int number = 50 ; printf ( " You\n are\n learning\n \'c\' language\n \ " Do you know C language\ " " ) ; return 0 ; }
+#include int main ( ) { const float PI = 3.14 ; printf ( " The value of PI is : %f " , PI ) ; return 0 ; }
+#include int main ( ) { const float PI = 3.14 ; PI = 4.5 ; printf ( " The value of PI is : %f " , PI ) ; return 0 ; }
+#include int main ( ) { int i = 1 ; while ( i < = 10 ) { printf ( " %d \n  " , i ) ; i + + ; } return 0 ; }
+#include <stdio.h> void main ( ) { while ( ) { printf ( " hello Javatpoint " ) ; } }
+#include <stdio.h> void main ( ) { int x = 10 , y = 2 ; while ( x + y-1 ) { printf ( " %d %d " , x-- , y-- ) ; } }
+#include <stdio.h> int main ( ) { int i = 1 ; for ( ; i <5 ; i + + ) { printf ( " %d " , i ) ; } }
+#include <stdio.h> int main ( ) { int i ; for ( i = 0 ; i < = 4 ; i + + ) { printf ( " %d " , i ) ; } }
+#include <stdio.h> int main ( ) { int i ; for ( i = 0 ; ; i + + ) { printf ( " %d " , i ) ; } }
+#include <stdio.h> void main ( ) { int i ; for ( i = 0 ; i <10 ; i + + ) { int i = 20 ; printf ( " %d " , i ) ; } }
+#include <stdio.h> void main ( ) { for ( ; ; ) { printf ( " welcome to javatpoint " ) ; } }
+#include <stdio.h> void main ( ) { int i = 0 ; while ( i! = 10 ) { printf ( " %d " , i ) ; continue ; i + + ; } }
+#include int main ( ) { float f = ( float ) 9 / 4 ; printf ( " f : %f\n  " , f ) ; return 0 ; }
+#include <stdio.h> void printName ( ) ; void main ( ) { printf ( " Hello " ) ; printName ( ) ; } void printName ( ) { printf ( " Javatpoint " ) ; }
+#include <stdio.h> int main ( ) { int a ; char b ; float c ; printf ( " %d %c %f " , a , b , c ) ; return 0 ; }
+#include <stdio.h> int main ( ) { register int a ; printf ( " %d " , a ) ; }
+#include <stdio.h> int main ( ) { register int a = 0 ; printf ( " %u " , & a ; ) ; }
+#include <stdio.h> int main ( ) { extern int a ; printf ( " %d " , a ) ; }
+#include int a ; int main ( ) { extern int a ; printf ( " %d " , a ) ; }
+#include int a ; int main ( ) { extern int a = 0 ; printf ( " %d " , a ) ; }
+#include int main ( ) { extern int a ; printf ( " %d " , a ) ; } int a = 20 ;
+#include main ( ) { char x [ ] = " Hi\0Hello " ; printf ( " %d %d " , strlen ( x ) , sizeof ( x ) ) ; }
+#include int main ( ) { int number = 50 ; printf ( " value of number is %d , address of number is %u " , number , & number ) ; return 0 ; }
+#include <stdio.h> void main ( ) { char s [ 11 ] = " javatpoint " ; char * p = s ; printf ( " %s " , p ) ; }
+#include void main ( ) { char s [ 30 ] ; printf ( " Enter the string? " ) ; gets ( s ) ; printf ( " You entered %s " , s ) ; }
+#include void main ( ) { char str [ 20 ] ; printf ( " Enter the string? " ) ; fgets ( str , 20 , stdin ) ; printf ( " %s " , str ) ; }
+#include int main ( ) { char a [ ] = " %d\n  " ; a [ 1 ] = 'b' ; printf ( a , 65 ) ; return 0 ; }
+#include main ( ) { union abc { int a ; char cha ; } var ; var.cha = 'A' ; printf ( " %d " , var.a ) ; }
+#include main ( ) { FILE * fp ; fp = fopen ( " file1.txt " , " w " ) ; fputc ( 'a' , fp ) ; fclose ( fp ) ; }
+#include int main ( ) { printf ( " Hello C " ) ; return 0 ; }
+#include #define PI 3.14 main ( ) { printf ( " %f " , PI ) ; }
+#include #define PI 3.14 #undef PI main ( ) { printf ( " %f " , PI ) ; }
+#include #define number 15 int square = number * number ; #undef number main ( ) { printf ( " %d " , square ) ; }
+#include #include #define NUMBER 0 void main ( ) { #if ( NUMBER = = 0 ) printf ( " Value of Number is : %d " , NUMBER ) ; #endif getch ( ) ; }
+#include #ifndef __MATH_H #error First include then compile #else void main ( ) { float a ; a = sqrt ( 7 ) ; printf ( " %f " , a ) ; } #endif
+#include #include #ifndef __MATH_H #error First include then compile #else void main ( ) { float a ; a = sqrt ( 7 ) ; printf ( " %f " , a ) ; } #endif
+#include int main ( ) { if ( printf ( " hello world " ) ) { } return 0 ; }
+#include int main ( ) { switch ( printf ( " hello world " ) ) { } return 0 ; }
+#include int main ( ) { while ( !printf ( " hello world " ) ) { } return 0 ; }
+#include #define start main void start ( ) { printf ( " Hello " ) ; }
+#include int main ( ) { int j = 1 ; while ( ) { printf ( " %d\n  " , j + + ) ; if ( j> 5 ) break ; } return 0 ; }
+#include main ( ) float a = 3.14 ; double b = 3.14 ;
+#include int main ( ) { int a = 5 ; do { printf ( " %d\n  " , a ) ; a = -1 ; } while ( a> 0 ) ; return 0 ; }
+#include int main ( ) { printf ( " %p\n  " , main ( ) ) ; return 0 ; }
+#include main ( ) { char x [ ] = " Hi\0Hello " ; printf ( " %d %d " , strlen ( x ) , sizeof ( x ) ) ; }
+#include main ( ) { int x [ ] = { 100 , 200 , 300 } ; printf ( " %d " , * x + 1 ) ; }
+#include void main ( ) { char a [ ] = " C + + " ; printf ( " %s " , a ) ; a + + ; printf ( " %s " , a ) ; }
+#include int main ( ) { int arr [ 2 ] = { 20 } ; printf ( " %d\n  " , 0 [ arr ] ) ; return 0 ; }
+#include int main ( ) { typedef char ( * ( * arrfptr [ 4 ] ) ( ) ) [ 20 ] ; arrfptr y ; return 0 ; }
+#include main ( ) { int a [ 3 ] = { 1 , , 2 } ; printf ( " %d " , a [ a [ 0 ] ] ) ; }
+#include main ( ) { int * a , * * b ; printf ( " %u\n  " , sizeof ( a ) ) ; printf ( " %u\n  " , sizeof ( b ) ) ; }
+#include void main ( ) { char * a = " C + + " ; printf ( " %s " , a ) ; a + + ; printf ( " %s " , a ) ; }
+#include main ( ) { char * x = NULL ; printf ( " %c " , * x ) ; }
+#include int main ( ) { int j = 10 ; int * i = & j ; return 0 ; }
+#include main ( ) { char * p = " Xyz " ; while ( * p ) printf ( " %c " , * p + + ) ; }
+#include int main ( ) { char a [ ] = " %d\n  " ; a [ 1 ] = 'b' ; printf ( a , 65 ) ; return 0 ; }
+#include #include int main ( ) { printf ( " %d\n  " , strlen ( " javaTpoint " ) ) ; return 0 ; }
+#include #include int main ( ) { char stri [ ] = " Java\0\Tpoint\0 " ; printf ( " %s\n  " , stri ) ; return 0 ; }
+#include main ( ) { char x [ ] = " Hi\0Hello " ; printf ( " %d %d " , strlen ( x ) , sizeof ( x ) ) ; }
+#include #include int main ( ) { printf ( " %c\n  " , " javatpoint " [ 5 ] ) ; return 0 ; }
+#include int main ( ) { printf ( " %u %s\n  " , & " Welcome " , & " Programming " ) ; return 0 ; }
+#include main ( ) { union abc { int a ; char cha ; } var ; var.cha = 'A' ; printf ( " %d " , var.a ) ; }
+#include main ( ) { enum { GREAT , is = 7 , india } ; printf ( " %d %d " , GREAT , india ) ; }
+#include <stdio.h> int main ( ) { int * p ; int a = 5 ; p = & a ; printf ( " Address value of 'a' variable is %u " , p ) ; return 0 ; }
+#include <stdio.h> void main ( ) { int * ptr = malloc ( constant value ) ; free ( ptr ) ; }
+#include <stdio.h> void main ( ) { int * ptr = malloc ( constant value ) ; free ( ptr ) ; ptr = NULL ; }
+#include #define start main void start ( ) { printf ( " Hello " ) ; }
+#include <stdio.h> void main ( ) { if ( printf ( " hello world " ) ) { } }
+#include <stdio.h> int main ( ) { int a = 10 ; int b = 20 ; int c = a + b ; printf ( " Sum = %d " , c ) ; return 0 ; }
+#include <stdio.h> int main ( ) { int a = 10 ; int b = 20 ; int c = a + b ; printf ( " Sum = %d " , c ) ; return 0 ; }
+#include <stdio.h> int main ( ) { char grade ; printf ( " Enter student grade : " ) ; grade = getchar ( ) ; putchar ( grade ) ; return 0 ; }
+#include <stdio.h> int main ( ) { printf ( " Hello , Codeforwin! " ) ; return 0 ; }
+#include <stdio.h> int main ( ) { printf ( " Hello , Codeforwin! " ) ; return 0 ; }
+#include <stdio.h> int main ( ) { printf ( " Hello , World! " ) ; return 0 ; }
+#include <stdio.h> int main ( ) { printf ( " Learn at Codeforwin! " ) ; return 0 ; }
+#include <stdio.h> int main ( ) { printf ( " Hello , Codeforwin! " ) ; return 0 ; }
+#include <stdio.h> int main ( ) { char ch = 'A' ; int val = ch + 10 ; printf ( " val = %d " , val ) ; return 0 ; }
+#include <stdio.h> int main ( ) { int count ; for ( count = 1 ; count < = 10 ; count + + ) { printf ( " %d " , count ) ; } return 0 ; }
+#include <stdio.h> int main ( ) { int n = 1 ; while ( n < = 10 ) { printf ( " %d " , n ) ; n + + ; } return 0 ; }
+#include <stdio.h> int main ( ) { int n = 1 ; do { printf ( " %d " , n ) ; n + + ; } while ( n < = 10 ) ; return 0 ; }
+#include <stdio.h> #include " main.h " #include " win / display.c "
+#include <stdio.h> #define PRINT ( msg ) #msg int main ( ) { printf ( PRINT ( C Programming in Codeforwin ) ) ; return 0 ; }
+#include <stdio.h> int main ( ) { int a = 10 ; int b = 20 ; int c = a + b ; printf ( " Sum = %d " , c ) ; return 0 ; }
+#include <stdio.h> int main ( ) { int a = 10 ; int b = 20 ; int c = a + b ; printf ( " Sum = %d " , c ) ; return 0 ; }
+#include <stdio.h> int main ( ) { int a = 10 ; int b = 20 ; int c = a + b ; printf ( " Sum = %d " , c ) ; return 0 ; }
+#include <stdio.h> int main ( ) { int a = 10 ; int b = 20 ; int c = a + b ; printf ( " Sum = %d " , c ) ; return 0 ; }
+#include <stdio.h> #include <stdlib.h> int main ( ) { char * ptr = malloc ( sizeof ( char ) * 20 ) ; return 0 ; }
+#include <stdio.h> #include <stdlib.h> int main ( ) { char * ptr = malloc ( sizeof ( char ) * 20 ) ; free ( ptr ) ; return 0 ; }
+#include <stdio.h> #define PRINT ( msg ) #msg int main ( ) { printf ( PRINT ( C Programming in Codeforwin ) ) ; return 0 ; }
+#include <stdio.h> #include " main.h " #include " win / display.c "
+#include <stdio.h> #include <stdlib.h> int main ( ) { char * ptr = malloc ( sizeof ( char ) * 20 ) ; return 0 ; }
+#include <stdio.h> #include <stdlib.h> int main ( ) { char * ptr = malloc ( sizeof ( char ) * 20 ) ; free ( ptr ) ; return 0 ; }
+#include <stdio.h> int main ( ) { char ch = 'A' ; int val = ch + 10 ; printf ( " val = %d " , val ) ; return 0 ; }
+#include <stdio.h> int main ( ) { int n = 1 ; do { printf ( " %d " , n ) ; n + + ; } while ( n < = 10 ) ; return 0 ; }
+#include <stdio.h> int main ( ) { int n = 1 ; while ( n < = 10 ) { printf ( " %d " , n ) ; n + + ; } return 0 ; }
+#include <stdio.h> int main ( ) { int count ; for ( count = 1 ; count < = 10 ; count + + ) { printf ( " %d " , count ) ; } return 0 ; }
+#include <stdio.h> int main ( ) { char grade ; printf ( " Enter student grade : " ) ; grade = getchar ( ) ; putchar ( grade ) ; return 0 ; }
+#include <stdio.h> int main ( ) { char ch = 'A' ; int val = ch + 10 ; printf ( " val = %d " , val ) ; return 0 ; }
+#include <stdio.h> int main ( ) { printf ( " Hello , Codeforwin! " ) ; return 0 ; }
+#include <stdio.h> int main ( ) { int a = 10 ; int b = 20 ; int c = a + b ; printf ( " Sum = %d " , c ) ; return 0 ; }
+#include <stdio.h> int main ( ) { int a = 10 ; int b = 20 ; int c = a + b ; printf ( " Sum = %d " , c ) ; return 0 ; }
+#include <stdio.h> int main ( ) { printf ( " Learn at Codeforwin! " ) ; return 0 ; }
+#include <stdio.h> int main ( ) { printf ( " Hello , World! " ) ; return 0 ; }
+#include <stdio.h> int main ( ) { printf ( " Hello , Codeforwin! " ) ; return 0 ; }
+#include <stdio.h> int main ( ) { printf ( " Hello , Codeforwin! " ) ; return 0 ; }

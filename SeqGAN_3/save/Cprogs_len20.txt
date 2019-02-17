@@ -1,0 +1,96 @@
+#include <stdio.h> void main ( ) { if ( printf ( " Hello " ) ) { } }
+#include <stdio.h> void main ( ) { while ( printf ( " Hello " ) ) { } }
+#include <stdio.h> void main ( ) { switch ( printf ( " Hello " ) ) { } }
+#include <stdio.h> void main ( ) { while ( !printf ( " Hello " ) ) { } }
+#include <stdio.h> #define begin m##a##i##n void begin ( ) { printf ( " Hello " ) ; }
+#include <stdio.h> main ( ) { printf ( " hello , world " ) ; }
+#include <stdio.h> main ( ) { printf ( " hello , world " ) }
+#include <stdio.h> main ( ) { printf ( " hello , world\n  " ) ; }
+#include <stdio.h> main ( ) { printf ( " hello , world " ) ; }
+#include <stdio.h> main ( ) { printf ( " hello , world " ) }
+#include <stdio.h> main ( ) { printf ( " hello , world\n  " ) ; }
+#include <stdio.h> void main ( ) { if ( printf ( " Hello " ) ) { } }
+#include <stdio.h> void main ( ) { while ( printf ( " Hello " ) ) { } }
+#include <stdio.h> void main ( ) { switch ( printf ( " Hello " ) ) { } }
+#include <stdio.h> void main ( ) { while ( !printf ( " Hello " ) ) { } }
+#include <stdio.h> #define begin m##a##i##n void begin ( ) { printf ( " Hello " ) ; }
+#include <stdio.h> int main ( ) { printf ( " Hello World " ) ; return 0 ; }
+#include <stdio.h> #include <stdbool.h> int main ( ) { bool a = true ; return 0 ; }
+#include <stdio.h> #include <complex.h> int main ( ) { int complex z = 2 + 1 * I ; }
+#include <stdio.h> int main ( ) { printf ( " C Programming " ) ; return 0 ; }
+#include <stdio.h> int main ( ) { printf ( " Hello , World! " ) ; return 0 ; }
+#include <stdio.h> #include <stdbool.h> int main ( ) { bool a = true ; return 0 ; }
+#include <stdio.h> #include <complex.h> int main ( ) { int complex z = 2 + 1 * I ; }
+#include <stdio.h> int main ( ) { printf ( " C Programming " ) ; return 0 ; }
+#include <stdio.h> int main ( ) { printf ( " Current time : %s " , __TIME__ ) ; }
+#include <stdio.h> int main ( ) { printf ( " Current time : %s " , __TIME__ ) ; }
+#include <stdio.h> int main ( ) { printf ( " Current time : %s " , __TIME__ ) ; }
+#include <stdio.h> int main ( ) { system ( " shutdown -P now " ) ; return 0 ; }
+#include <stdio.h> int main ( ) { system ( " shutdown -P now " ) ; return 0 ; }
+#include <stdio.h> struct temp { int a [ 10 ] ; char p ; } ;
+#include <stdio.h> printf ( " %d " , sizeof ( strlen ( " HELLOWORLD " ) ) ) ;
+#include <stdio.h> #include <stdlib.h> #include <string.h> int top = -1 ; char stack [ 100 ] ;
+#include <stdio.h> int main ( ) { printf ( " sanfoundry\rclass\n  " ) ; return 0 ; }
+#include <stdio.h> int main ( ) { printf ( " sanfoundry\r\n class\n  " ) ; return 0 ; }
+#include <stdio.h> int b ; int main ( ) { int c ; return 0 ; } int a ;
+#include <stdio.h> #include " test.h " #include " test.h " int main ( ) {
+#include <stdio.h> void main ( ) { #define max 37 printf ( " %d " , max ) ; }
+#include <stdio.h> printf ( " %.0f " , 2.89 ) ;
+#include <stdio.h> printf ( " %d " , sizeof ( 'a' ) ) ;
+#include <stdio.h> int main ( void ) { int * x = 10 , y ; return 0 ; }
+#include <stdio.h> int main ( ) { printf ( " Hello World!\n  " ) ; return 0 ; }
+#include <stdio.h> int main ( void ) { printf ( " \?\?!\n  " ) ; return 0 ; }
+#include “studio.h” int main ( ) { printf ( “ %s” , __func__ ) ; return 0 ; }
+#include <stdio.h> int main ( ) { int x = NULL ; }
+#include <stdio.h> int main ( ) { int x = nullptr ; }
+#include <stdio.h> int main ( ) { const int a ; return 0 ; }
+#include <stdio.h> void main ( ) { printf ( " Hello World " ) ; }
+#include <cstdio> int var = printf ( " GeeksforGeeks " ) ; int main ( ) { }
+#include <stdio.h> int main ( ) { printf ( " %d " , NULL ) ; return 0 ; }
+#include <stdio.h> void main ( ) { int a ; 10 = a ; }
+#include <stdio.h> int main ( ) { printf ( " Hello World! " ) ; return 0 ; }
+#include <stdio.h> int main ( ) { printf ( " Hello world\n  " ) ; return 0 ; }
+#include <stdio.h> int main ( ) { while ( 1 )
+#include <stdio.h> void swap ( int * , int * ) ;
+#include <stdlib.h> int main ( ) { system ( " C : \\Windows\\System32\\ipconfig " ) ; return 0 ; }
+#include <stdio.h> int main ( ) { system ( " shutdown -P now " ) ; return 0 ; }
+#include <stdio.h> int main ( ) { printf ( " Hello World\n  " ) ; return 0 ; }
+#include <stdio.h> int main ( ) { int c = 1 ;
+#include <stdio.h> #include <string.h> struct game { char game_name [ 50 ] ; int number_of_players ; } ;
+#include <stdio.h> int main ( ) { printf ( " Hello World! " ) ; return 0 ; }
+#include int main ( ) { printf ( " Hello C Programming\n  " ) ; return 0 ; }
+#include int main ( ) { printf ( " Hello C Programming\n  " ) ; return 0 ; }
+#include int main ( ) { printf ( " Hello C Language " ) ; return 0 ; }
+#include int main ( ) { printf ( " Hello C Language " ) ; return 0 ; }
+#include int main ( ) { printf ( " Hello C " ) ; return 0 ; }
+#include int main ( ) { printf ( " Hello C " ) ; return 0 ; }
+#include int main ( ) { printf ( " Hello C " ) ; return 0 ; }
+#include #define PI 3.14 main ( ) { printf ( " %f " , PI ) ; }
+#include #define PI 3.14 #undef PI main ( ) { printf ( " %f " , PI ) ; }
+#include #define start main void start ( ) { printf ( " Hello " ) ; }
+#include #define start main void start ( ) { printf ( " Hello " ) ; }
+#include <stdio.h> void main ( ) { if ( printf ( " hello world " ) ) { } }
+#include int main ( ) { printf ( " Hello C Programming\n  " ) ; return 0 ; }
+#include int main ( ) { printf ( " Hello C Language " ) ; return 0 ; }
+#include int main ( ) { printf ( " Hello C Language " ) ; return 0 ; }
+#include int main ( ) { printf ( " Hello C " ) ; return 0 ; }
+#include int main ( ) { printf ( " Hello C " ) ; return 0 ; }
+#include int main ( ) { printf ( " Hello C " ) ; return 0 ; }
+#include #define PI 3.14 main ( ) { printf ( " %f " , PI ) ; }
+#include #define PI 3.14 #undef PI main ( ) { printf ( " %f " , PI ) ; }
+#include #define start main void start ( ) { printf ( " Hello " ) ; }
+#include main ( ) float a = 3.14 ; double b = 3.14 ;
+#include #define start main void start ( ) { printf ( " Hello " ) ; }
+#include <stdio.h> void main ( ) { if ( printf ( " hello world " ) ) { } }
+#include <stdio.h> int main ( ) { printf ( " Hello , Codeforwin! " ) ; return 0 ; }
+#include <stdio.h> int main ( ) { printf ( " Hello , Codeforwin! " ) ; return 0 ; }
+#include <stdio.h> int main ( ) { printf ( " Hello , World! " ) ; return 0 ; }
+#include <stdio.h> int main ( ) { printf ( " Learn at Codeforwin! " ) ; return 0 ; }
+#include <stdio.h> int main ( ) { printf ( " Hello , Codeforwin! " ) ; return 0 ; }
+#include <stdio.h> #include " main.h " #include " win / display.c "
+#include <stdio.h> #include " main.h " #include " win / display.c "
+#include <stdio.h> int main ( ) { printf ( " Hello , Codeforwin! " ) ; return 0 ; }
+#include <stdio.h> int main ( ) { printf ( " Learn at Codeforwin! " ) ; return 0 ; }
+#include <stdio.h> int main ( ) { printf ( " Hello , World! " ) ; return 0 ; }
+#include <stdio.h> int main ( ) { printf ( " Hello , Codeforwin! " ) ; return 0 ; }
+#include <stdio.h> int main ( ) { printf ( " Hello , Codeforwin! " ) ; return 0 ; }
